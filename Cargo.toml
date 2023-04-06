@@ -1,6 +1,6 @@
 [package]
 name = "jsonto"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["atopx"]
 license = "MIT"
@@ -12,5 +12,3 @@ repository = "https://github.com/atopx/jsonto"
 [dependencies]
 thiserror = "1.0"
 linked-hash-map = "0.5.4"
-syn = { version = "1.0.107", features = ["full", "parsing"], optional = true }
-synom = { version = "0.11.3", optional = true }
